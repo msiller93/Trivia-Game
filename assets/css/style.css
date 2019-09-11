@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: auto;
+    background: url("../images/texas-flag.jpg");
+    background-size: auto;
+}
+header {
+    letter-spacing: 4px;
+    color: rgba(12, 12, 230, 0.769);
+    text-shadow: 2px 2px 2px white;
+    position: fixed;
+    top: 0px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    background: rgba(255, 0, 0, 0.845);
+    border-bottom: white 2px;
+    border-radius: 15px;
+    width: 100%;
+}
+#time-remaining {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 10px;
+}
+.question {
+    margin: auto;
+    width: 90%;
+    font-size: 30px;
+    font-weight: bolder;
+    color:black;
+}
+
+.button {
+    letter-spacing: 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:  rgba(12, 12, 230, 0.769);
+    background: white;
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border-bottom: grey solid 2px;
+    border-right: grey solid 2px;
+}
+#done-button {
+    margin: 0px 0px 60px 0px;
+}
+#start-button {
+    margin: 0px 0px 40px 0px;
+}
+#restart-button {
+    letter-spacing: 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: rgba(12, 12, 230, 0.769);
+    background: white;
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border-bottom: grey solid 2px;
+    border-right: grey solid 2px;
+}
+form {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}

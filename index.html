@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia-Game-Basic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- link to external css files and fonts -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header><h1>Texas "The Lone Star State" Trivia<div id = "time-remaining">1:00</div></h1></header>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <button class="button" id="start-button">Start!</button>
+
+    <br>
+    
+    <div class = "question">What is the capital of Texas?</div>
+
+    <!-- The questions, with the value of correct or incorrect -->
+    <form >
+        <input type="radio" name=1 class="choice" value="incorrect"> Dallas
+        <input type="radio" name=1 class="choice" value="incorrect"> San Antonio
+        <input type="radio" name=1 class="choice" value="correct"> Austin
+        <input type="radio" name=1 class="choice" value="incorrect"> Houston
+    </form>
+
+    <br>
+
+    <div class = "question">Texas is home to which 2 Major League Baseball teams?</div>
+
+    <form >
+        <input type="radio" name=2 class="choice" value="incorrect"> Spurs and Cowboys
+        <input type="radio" name=2 class="choice" value="incorrect"> Cowboys and Texans
+        <input type="radio" name=2 class="choice" value="incorrect"> Braves and Diamondbacks
+        <input type="radio" name=2 class="choice" value="correct"> Astros and Rangers
+    </form>
+
+    <br>
+
+    <div class = "question">Which university in Texas has the longhorn as their mascot?</div>
+
+    <form >
+        <input type="radio" name=3 class="choice" value="correct"> University of Texas
+        <input type="radio" name=3 class="choice" value="incorrect"> Texas Tech
+        <input type="radio" name=3 class="choice" value="incorrect"> Texas A&M
+        <input type="radio" name=3 class="choice" value="incorrect"> University of Houston
+    </form>
+
+    <br>
+
+    <div class = "question">In what Texas city is the Alamo located?</div>
+
+    <form >
+        <input type="radio" name=4 class="choice" value="incorrect"> Corpus Christi
+        <input type="radio" name=4 class="choice" value="incorrect"> Houston
+        <input type="radio" name=4 class="choice" value="incorrect"> Dallas
+        <input type="radio" name=4 class="choice" value="correct"> San Antonio
+    </form>
+
+    <br>
+
+    <div class = "question">How many stars are on the Texas flag?</div>
+
+    <form >
+        <input type="radio" name=5 class="choice" value="wrong"> 6
+        <input type="radio" name=5 class="choice" value="correct"> 1
+        <input type="radio" name=5 class="choice" value="wrong"> 50
+        <input type="radio" name=5 class="choice" value="wrong"> 13
+    </form>
+    
+    <br>
+
+    <div class = "question">How much of the nation's total area does Texas take up?</div>
+
+    <form >
+        <input type="radio" name=6 class="choice" value="incorrect"> 3.8%
+        <input type="radio" name=6 class="choice" value="incorrect"> 11.7%
+        <input type="radio" name=6 class="choice" value="correct"> 7.4%
+        <input type="radio" name=6 class="choice" value="incorrect"> 18.3%
+    </form>
+    
+    <br>
+
+    <div class = "question">Texas has the highest speed limit in the country at ____MPH?</div>
+
+    <form >
+        <input type="radio" name=7 class="choice" value="correct"> 85
+        <input type="radio" name=7 class="choice" value="incorrect"> 75
+        <input type="radio" name=7 class="choice" value="incorrect"> 90
+        <input type="radio" name=7 class="choice" value="incorrect"> 100
+    </form>
+    
+    <br>
+
+    <!-- buttons for completing the quiz and restarting the game, linked to the javascript for functionality -->
+    <button class="button" id = "done-button">Done!</button>
+    <button id = "restart-button">Restart!</button>
+
+    <!-- link to external javaScript file -->
+    <script type="text/javascript" src = "assets/javascript/app.js"></script>
+
+    <!-- link to external javaScript file -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>
